@@ -11,8 +11,7 @@ import lombok.Setter;
 import java.util.Date;
 
 @Entity
-@Getter
-@Setter
+@Table(name ="User")
 public class User {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
